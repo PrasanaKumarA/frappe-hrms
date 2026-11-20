@@ -1,0 +1,11 @@
+{
+ "db_name": "_your_db_name",
+ "db_password": "your_db_password",
+ "db_type": "mariadb",
+ "db_user": "_your_db_user",
+ "installed_apps": [
+  "frappe",
+  "erpnext",
+  "hrms"
+ ]
+}

@@ -1,0 +1,50 @@
+# Environments & Secrets
+.env
+*.env
+**/.env
+**/.env.*
+!**/.env.example
+**/site_config.json
+!**/site_config.json.example
+
+# Python virtual environment & caches
+**/env/
+**/venv/
+**/.venv/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node / JS
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frappe bench runtime, logs, locks, and assets
+**/logs/
+*.log
+*.log.*
+*.lock
+**/*.lock
+**/config/pids/
+**/config/scheduler_process
+**/sites/assets/
+**/sites/*/locks/
+**/sites/*/logs/
+**/sites/*/private/
+**/sites/*/public/files/
+
+# IDE / Editor
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
